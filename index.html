@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Everest</title>
+    <style>
+        /* verde = #46a128 */
+        body{
+            margin: 0px;
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            background-color: #46a128;
+            width: 100%;
+        }
+        
+        div.header{
+            display: flex;
+            flex-direction: row;
+            
+            width: 100%;
+            height: 400px;
+            background-color: #46a128;
+            align-items: center;
+            
+        }
+
+        div.logo{
+            margin-left: 300px;
+            display: flex;
+            flex-direction: row;
+        }
+        div.horizontalBar {
+            margin-left: 150px;
+            margin-right: 100px;
+            width: 5px;
+            height: 200px;
+            background-color: #fff;
+        }
+
+        div.menu {    
+            display: flex;
+            flex-direction: column;
+        }
+
+        a.bttMenu{
+            color: #fff;
+            text-decoration: none;
+        }
+
+        div.depoiments {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            height: 300px;
+            background-color: aliceblue;
+        }
+
+        div.depoimento {
+            align-items: center;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+
+        div.textDepoiment {
+            color:#206552;
+            margin-left: 50px;
+        }
+
+        div.approvedList {
+            width: 100%;
+            height: 1100px;
+        }
+
+        #nossosResultados{
+            margin-left: 50px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            color: #fff;
+        }
+
+        #title {
+            font-size: 150px;
+            margin-left: 50px;
+            margin-top: 0px;
+            color: #fff;
+        }
+
+        div.colunas{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            
+            color: #fff;
+            font-size: 20px;
+            padding: 0px;
+        }
+
+        div.coluna1 {
+            align-items: center;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            margin-left: 50px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        div.coluna2 {
+            align-items: center;
+            margin: 0px;
+            display: flex;
+            flex-direction: column;
+            margin-left: 50px;
+        }
+
+        div.subFooter{
+            background-color: #fff;
+            width: 100%;
+            height: 150px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="header" >
+        <div class="logo">
+            <img src="logo.png" alt="some text" width=400 height=100>
+        </div>
+        <div class="horizontalBar"></div>
+        <div class="menu">
+            <a class="bttMenu" href="/"> HOME </a>
+            <a class="bttMenu" href="/quemsomos/index.html"> QUEM SOMOS </a>
+            <a class="bttMenu" href="/turmas/"> TURMAS </a>
+            <a class="bttMenu" href="/docentes/"> DOCENTES </a>
+            <a class="bttMenu" href="/contato/"> CONTATOS </a>
+            
+        </div>
+
+    </div>
+
+    <div class="depoiments">
+
+        <div class="depoimento">
+        <div>
+        <img src="dep.jpeg" alt="depoimento" width="150" height="200">
+        </div>
+        <div class="textDepoiment">
+            <h2> SHARON ALBUQUERQUE <BR>APROVADA EM MEDICINA 2020/UEMA </h2>
+            <P>“Estudei por 1 ano e meio no preparatório Everest<BR> e tenho certeza de que esse foi o diferencial<BR>
+                que eu precisava para alcançar minha tão sonhada vaga<BR> em medicina. Sem dúvidas, vale muito
+                a pena!”
+                </P>
+        </div>
+        </div>
+    </div>
+
+    <div class="approvedList">
+        <div id="nossosResultados">
+            <img src="logomenor.png" alt="Logo menor" width="20" height="20">
+            <h2>NOSSOS RESULTADOS</h2>
+        </div>
+        <div>
+        <h1 id="title"> 95% APROVADOS</h1>
+        </div>
+
+        <div class="colunas">
+            <div></div>
+
+            <div class="coluna2">
+                <h2>BIOMEDICINA</h2>
+                <h3>06 APROVAÇÕES </h3>
+
+                <h2>PSICOLOGIA</h2>
+                <h3>05 APROVAÇÕES </h3>
+
+                <h2>ENFERMANGEM</h2>
+                <h3>12 APROVAÇÕES </h3>
+
+                <h2>MEDICINA VETERINÁRIA</h2>
+                <h3>05 APROVAÇÕES </h3>
+            </div>
+            <div class="coluna1">
+                <h2>MEDICINA</h2>
+                <h3>47 APROVAÇÕES </h3>
+
+                <h2>DIREITO</h2>
+                <h3>42 APROVAÇÕES </h3>
+
+                <h2>ENGENHARIAS</h2>
+                <h3>63 APROVAÇÕES </h3>
+
+                <h2>LICENCIATUAS</h2>
+                <h3>29 APROVAÇÕES </h3>
+            </div>
+
+            
+
+        </div>
+    </div>
+
+    <div class="subFooter">
+        <img src="logo everest.png" alt="some text" width=200 height=50>
+    </div>
+
+    <div class="footer">
+
+    </div>
+</body>
+</html>
